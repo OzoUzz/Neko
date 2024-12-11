@@ -26,20 +26,6 @@ button {
 }
 
 html {
-  background-color: #2B2B2B;
+  background-color: #161616;
 }
-
-.btn {
-  padding: 19px 50px;
-  border-radius: 20px;
-  border: none;
-  background-color: #A259FF;
-}
-
-.btn2 {
-  padding: 19px 50px;
-  border-radius: 20px;
-  border: 2px solid #A259FF;
-  background-color: #2B2B2B;
-  color: white;
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
