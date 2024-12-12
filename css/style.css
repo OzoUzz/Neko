@@ -44,6 +44,61 @@
   src: url(./fonts/Poppins-Thin.woff) format(woff), url(/fonts/Poppins-Thin.woff2) format(woff2);
   font-weight: 100;
 }
+:root {
+  --btn-pink:#C75E90 ;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.header__menu-link {
+  color: white;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__toggle {
+  width: 80px;
+  height: 61%;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(-10px, 12px);
+}
+
+.bi-moon {
+  margin: 5px 15px 0 5px;
+  background-color: var(--btn-pink);
+  padding: 5px 10px;
+  border-radius: 50%;
+  transform: translate(0px, -2.5px);
+}
+
+.bi-brightness-high {
+  color: black;
+  background-color: white;
+  transform: translate(-10.5px, -0.3px);
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
 .room__wrapper {
   height: 601px;
   display: flex;
@@ -288,6 +343,7 @@ button {
 .container {
   width: 1300px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .bi {
@@ -295,21 +351,18 @@ button {
 }
 
 html {
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .btn {
-  padding: 19px 50px;
-  border-radius: 20px;
+  padding: 0px 30px;
+  height: 60%;
+  border-radius: 30px;
   border: none;
-  background-color: #A259FF;
-}
-
-.btn2 {
-  padding: 19px 50px;
-  border-radius: 20px;
-  border: 2px solid #A259FF;
-  background-color: #2B2B2B;
+  background-color: var(--btn-pink);
   color: white;
 }
 
