@@ -143,7 +143,7 @@
   flex-direction: column;
   margin-top: 100px;
   width: 1312px;
-  height: 1108px;
+  height: 1008px;
   border-radius: 40px;
   background-color: #161616;
 }
@@ -179,7 +179,7 @@
 }
 
 .book__info {
-  margin-top: -550px;
+  margin-top: 14px;
 }
 
 .book__box--mini {
@@ -193,7 +193,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 37px;
   flex-wrap: wrap;
   margin-top: 60px;
 }
@@ -220,57 +220,53 @@
   margin-top: 13px;
 }
 
+.book__box--big {
+  width: 1000px;
+  height: 77px;
+  border-radius: 40px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin: 40px 150px;
+}
+
+.span--pink {
+  width: 54px;
+  height: 54px;
+  background-color: #C75E90;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.book__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.book__btn {
+  width: 236px;
+  height: 56px;
+  border-radius: 220px;
+  background-color: #C75E90;
+  color: white;
+  margin-left: calc(50% - 113px);
+  border: none;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins";
 }
-
-ul {
-  list-style: none;
-}
-
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-button {
-  cursor: pointer;
-}
-
-.container {
-  width: 1300px;
-  margin: 0 auto;
-}
-
-.bi {
-  color: white;
-}
-
-html {
-  background-color: #2B2B2B;
-}
-
-.btn {
-  padding: 19px 50px;
-  border-radius: 20px;
-  border: none;
-  background-color: #A259FF;
-}
-
-.btn2 {
-  padding: 19px 50px;
-  border-radius: 20px;
-  border: 2px solid #A259FF;
-  background-color: #2B2B2B;
-  color: white;
-}/*# sourceMappingURL=style.css.map */
 
 ul {
   list-style: none;
@@ -430,4 +426,14 @@ html {
   align-items: center;
   margin-top: 120px;
   margin-left: 100px;
+}
+
+.book__btn {
+  width: 236px;
+  height: 56px;
+  border-radius: 220px;
+  background-color: #C75E90;
+  color: white;
+  margin-left: calc(50% - 113px);
+  border: none;
 }/*# sourceMappingURL=style.css.map */
