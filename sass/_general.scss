@@ -13,25 +13,23 @@ button {
   cursor: pointer;
 }
 .container {
-  width: 1500px;
+  width: 1400px;
   margin: 0 auto;
 }
 .bi {
   color: white;
 }
-html{
-  background-color: #2B2B2B;
+html {
+  background-color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .btn{
-  padding: 19px 50px;
-  border-radius: 20px;
+  padding: 0px 30px;
+  height: 60%;
+  border-radius: 30px;
   border: none;
-  background-color: #A259FF;
-}
-.btn2{
-  padding: 19px 50px;
-  border-radius: 20px;
-  border: 2px solid #A259FF;
-  background-color: #2B2B2B;
+  background-color: var(--btn-pink);
   color: white;
 }
