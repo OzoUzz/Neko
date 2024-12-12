@@ -1,0 +1,114 @@
+.book__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 1312px;
+    height: 1008px;
+    border-radius: 40px;
+    background-color: #161616;
+}
+
+.book__sub-title {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.36em;
+    text-align: center;
+    color: #696969;
+}
+
+.book__title {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin: 15px 0;
+}
+
+.book__text {
+    width: 868px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+}
+
+.book__info {
+    margin-top: 14px;
+}
+
+.book__box--mini {
+    width: 495px;
+    height: 77px;
+    border-radius: 40px;
+    border: 1px solid #FFFFFF;
+}
+
+.book__box--top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+.book__sub-text {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.36em;
+    text-align: left;
+    color: white;
+    margin-left: 48px;
+    margin-top: 13px;
+}
+
+.book__box--big {
+    width: 1000px;
+    height: 77px;
+    border-radius: 40px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 30px;
+    margin: 40px 150px;
+}
+
+.span--pink{
+    width: 54px;
+    height: 54px;
+    background-color: #C75E90;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.book__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 100px;
+}
