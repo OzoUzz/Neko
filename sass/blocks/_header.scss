@@ -9,7 +9,7 @@
     width: 500px;
 }
 .header__wrapper{
-    @include df(space-between)
+    @include df(space-between);
 }
 .header__right{
     @include df(space-between);

@@ -1,6 +1,8 @@
 .room__wrapper {
     height: 601px;
-    display: flex;align-items: center;gap: 90px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
 }
 
 .room__pic {
@@ -26,7 +28,7 @@
     line-height: 54px;
     text-align: left;
     color: white;
-   margin: 15px 0 60px 0;
+    margin: 15px 0 60px 0;
 }
 
 .room__text {
@@ -48,7 +50,7 @@
     color: white;
 }
 
-.span{
+.span {
     width: 44px;
     height: 44px;
     background-color: #C75E90;
@@ -60,13 +62,13 @@
     margin-top: -120px;
 }
 
-.room__box--big{
+.room__box--big {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.room__box--mini{
+.room__box--mini {
     width: 642.5px;
     padding: 25px 0;
     border-top: 1px solid #696969;
@@ -75,7 +77,7 @@
     margin-top: 30px;
 }
 
-.span2{
+.span2 {
     width: 44px;
     height: 44px;
     background-color: #C75E90;
